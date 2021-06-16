@@ -25,11 +25,11 @@ fname = input("enter file name: ")
 try:
     fhand = open(fname)
     for line in fhand:
-        #get all the numbers on a line and add it to list
+        # get all the numbers on a line and add it to list
         numlist = re.findall('[0-9]+', line)
         lengthoflist = len(numlist)
         if (lengthoflist > 0):
-            #print("length of list:", lengthoflist)
+            # convert to integer and add to a new list - uberlist
             for x in numlist:
                 uberlist.append(int(x))            
         else:
@@ -37,6 +37,6 @@ try:
 except:
     traceback.print_exc()
     quit()
-#print(uberlist)
+# sum all the numbers in the list
 sumofnumbers = sum(uberlist)
 print(sumofnumbers)
