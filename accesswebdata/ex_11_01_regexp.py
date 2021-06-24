@@ -3,7 +3,7 @@
 # Data Files #################
 # We provide two files for this assignment. One is a sample file where we give you 
 # the sum for your testing and the other is the actual data you need to process for the assignment.
-# Sample data: http://py4e-data.dr-chuck.net/regex_sum_42.txt (There are 90 values with a sum=445833)
+# Sample data: http://py4e-data.dr-chuck.net/sample.txt (There are 90 values with a sum=445833)
 # Actual data: http://py4e-data.dr-chuck.net/regex_sum_1272138.txt (There are 69 values and 
 # the sum ends with 393)
 # Data Format #################
