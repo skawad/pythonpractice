@@ -16,7 +16,7 @@
 # using the re.findall(), looking for a regular expression of '[0-9]+' and 
 # then converting the extracted strings to integers and summing up the integers.
 
-# import regular expression library
+# import regular expression library to use inbuilt methods
 import re
 import traceback
 # create empty list to add numbers as Integer
