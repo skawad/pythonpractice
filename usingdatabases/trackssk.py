@@ -74,6 +74,8 @@ for entry in all:
     #print(name, artist, album, genre, count, rating, length)
 
     # populate the 4 tables in the db
+    ### OR IGNORE - This means if there is an error, don't blow up and ignore the error 
+    ### Example: If we insert the name of the artist twice, the second time around, it will be ignored
     # populate ARTIST table
     cur.execute('''INSERT OR IGNORE INTO Artist (name) 
         VALUES ( ? )''', ( artist, ) )
